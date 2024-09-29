@@ -130,5 +130,13 @@ namespace SpaceShooter
         public int ScoreValue => m_ScoreValue;
 
         #endregion
+
+
+        protected void Use(EnemyAsset asset)
+        {
+            m_HitPoints = asset.hp;
+            m_ScoreValue = asset.score;
+            m_CurrentHitPoints = m_HitPoints;
+        }
     }
 }

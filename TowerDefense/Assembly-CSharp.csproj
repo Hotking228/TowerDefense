@@ -60,22 +60,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Import\AIPointPatrol.cs" />
+    <Compile Include="Assets\Scripts\StandUp.cs" />
     <Compile Include="Assets\Scripts\Import\CircleArea.cs" />
     <Compile Include="Assets\Scripts\Import\LevelSequenceController.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Import\LevelController.cs" />
     <Compile Include="Assets\Scripts\Import\AIController.cs" />
+    <Compile Include="Assets\Scripts\EnemyAsset.cs" />
     <Compile Include="Assets\Scripts\SpaceShip.cs" />
     <Compile Include="Assets\Scripts\Import\Projectile.cs" />
     <Compile Include="Assets\Scripts\EntitySpawner.cs" />
     <Compile Include="Assets\Scripts\Import\Episode.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Import\Entity.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\TurretProperties.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Import\Destructible.cs" />
     <Compile Include="Assets\Scripts\Import\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\Import\LevelResultController.cs" />
+    <Compile Include="Assets\Scripts\TDPatrolController.cs" />
+    <Compile Include="Assets\Scripts\Path.cs" />
     <Compile Include="Assets\Scripts\Import\ImpactEffect.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Profiling;
 using UnityEngine;
@@ -124,6 +125,12 @@ namespace SpaceShooter
         public void Fire(TurretMode mode)
         {
            
+        }
+
+        public void Use(EnemyAsset asset)
+        {
+            m_MaxLinearVelocity = asset.moveSpeed;
+            base.Use(asset);
         }
 
         /*
